@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <link rel="icon" href="favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/resume.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <title>onlystar个人简历</title>
+</head>
+<body>
+<!--loading加载页面-->
+<div class="preloader">
+    <div class="status">&nbsp;</div>
+</div>
+<!--导航页面-->
+<div class="narbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="navbar-brand">onlystar</div>
+            <div class="navbar-toggle" data-toggle="collapse" data-target="#navMenu">
+                <span class="sr-only">导航切换</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </div>
+        </div>
+        <div class="navbar-collapse collapse" id="navMenu">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#master">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#practice">实习经历</a></li>
+                <li><a href="#experience">项目经验</a></li>
+                <li><a href="#works">前端作品</a></li>
+                <li><a href="#skill">专业技能</a></li>
+                <li><a href="#contact">联系方式</a></li>
+                <i class="active-bar"></i>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 侧边菜单 -->
+<aside id="aside" class="hidden-xs">
+    <a href="#master" class="current"><span>首页</span></a>
+    <a href="#about" class=""><span>关于我</span></a>
+    <a href="#practice" class=""><span>实习经历</span></a>
+    <a href="#experience" class=""><span>项目经验</span></a>
+    <a href="#works" class=""><span>前端作品</span></a>
+    <a href="#skill" class=""><span>专业技能</span></a>
+    <a href="#contact" class=""><span>联系方式</span></a>
+</aside>
+<!--主页面-->
+<div id="fullpage">
+    <!--首页-->
+    <div class="section one">
+        <!--文本内容-->
+        <div class="home">
+            <div class="home-content">
+                <h1>
+                    <em class="line-top"></em>
+                    <span id="first">终于</span>
+                    <span id="second">,</span>
+                    <span id="third">等到您</span>
+                    <em class="line-bottom"></em>
+                </h1>
+                <a href="#about" class="look">
+                    <em class="line-top2"></em>
+                    <em class="line-bottom2"></em>
+                    <em class="line-left2"></em>
+                    <em class="line-right2"></em>
+                    查看简历
+                </a>
+            </div>
+        </div>
+        <!--视频背景-->
+        <video loop preload="auto" id="video">
+            <source src="videos/Home.mp4">
+        </video>
+    </div>
+    <!--关于我-->
+    <div class="section two">
+        <!--上半部分-->
+        <div class="about-title">
+            <!--title背景-->
+            <div class="head-bg">
+            </div>
+            <!--标题，个人介绍-->
+            <div class="user-icon">
+                <img src="Images/onlystar.png" alt="" class="user-pic">
+                <div class="self-info">
+                    <h3>ABOUT ME </h3>
+                    <p>
+                        Hi，我是徐辉波，目前奋斗在前端工程师的道路上，对web前端保持着浓厚的兴趣与热爱,对新的技术充满渴望，在校拥有一年半的编程经验，喜欢写语义化良好的HTML页面，能用CSS3和JavaScript实现各种交互效果，始终坚信一份耕耘一份收获，用不懈的努力，创造更多的社会价值。相信自己，永不言弃！!</p>
+                </div>
+            </div>
+        </div>
+        <!--下半部分-->
+        <div class="user-info">
+            <!--教育经历和个人信息-->
+            <div class="content-wrap ">
+                <div class="education">
+                    <h1 class="title">教育经历</h1>
+                    <div class="billboard">
+                        <ul>
+                            <li class="high-school"><i class="icon-check-circle" style="opacity: 0"></i><i class="line lb" style="opacity: 0"></i>
+                                <div><span class="timeline">2009&nbsp;-&nbsp;2013 </span><i class="line-desp"></i> 郧西一中
+                                </div>
+                            </li>
+                            <li class="college"><i class="icon-circle" style="opacity: 0"></i><i class="line lt" style="opacity: 0"></i>
+                                <div><span class="timeline">2013&nbsp;-&nbsp;至今</span> <i class="line-desp"></i>湖北汽车工业学院（应届毕业生）
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="basic-info clearfix">
+                    <li class="name"><i class="icon-smile-o"></i><br/><span>徐辉波</span></li>
+                    <li class="birthday"><i class="icon-clock-o"></i><br/><span>23岁</span></li>
+                    <li class="education"><i class="icon-book"></i><br/><span>本科</span></li>
+                    <li class="profession"><i class="icon-graduation-cap"></i><br/><span>计算机科学与技术</span></li>
+                    <li class="location"><i class="icon-map-marker"></i><br/><span>武汉</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--实习经历-->
+    <div class="section three">
+        <div class="practice-content">
+            <!--标题-->
+            <h1 class="title">时间轴</h1>
+            <!--内容-->
+            <div class="content">
+                <!--分隔线-->
+                <div class="vertical-line"></div>
+                <ul>
+                    <li class="practice-item item1">
+                        <div class=" item-content">
+                            <div class="practice-box">
+                                <div class="practice-title">湖北汽车工业学院教务处&nbsp;&nbsp;（实习）</div>
+                                <div class="practice-desc"> 职责：使用新框架新技术改版网页，网站优化，网站内容更新</div>
+                            </div>
+                            <div class="day">2015.6 - 2015.8</div>
+                        </div>
+                        <div class="simboo"><i class="icon-hand-grab-o"></i></div>
+                    </li>
+                    <li class="practice-item item2">
+                        <div class=" item-content">
+                            <div class="practice-box">
+                                <div class="practice-title">猎奇网络科技有限公司&nbsp;&nbsp;（实习）</div>
+                                <div class="practice-desc">做外包项目，前后台的交互，BootStrap框架使用</div>
+                            </div>
+                            <div class="day">2016.3 - 2016.12</div>
+                        </div>
+                        <div class="simboo"><i class="icon-yelp"></i></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--项目经验-->
+    <div class="section four">
+        <div class="experience-content">
+            <!--页头-->
+            <h1 class="title">项目经验</h1>
+            <!--主体内容-->
+            <div class="content">
+                <div class="programe">
+                    <div class="work_time">5个月<br>飞讯软件官网</div>
+                    <div class="work_text">
+                        <div class="triangle-left"></div>
+                        <div class="exCon">
+                            <h4>开发时间：2016/7--2016/12</h4>
+                            <h5>开发工具：webstorm+mysql+php</h5>
+                            <p>项目描述：</p>
+                            <p>该项目是飞讯科技委托的官网开发。网站内容主要有用户登录，注册，代理软件等功能，以及产品展示，产品详情，公司介绍等。</p>
+                            <p> 本网页采用angularJS交互框架搭建，采用bootstrapui框架。</p>
+                            <p>责任描述：</p>
+                            <p>1.使用angualrJS完成项目的搭建，配置页面路由。 </p>
+                            <p>2.使用js+jquery完成页面的弹出框以及切换效果，添加鼠标事件监听来判断方向以完成相应的动画效果。</p>
+                            <p>3.设计数据字典，并使用mysql创建数据库和表。</p>
+                            <p>4.使用php编写验证码并进行登录注册验证。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="programe">
+                    <div class="work_time">3个月<br>绿圈校园</div>
+                    <div class="work_text">
+                        <div class="triangle-left"></div>
+                        <div class="exCon">
+                            <h4>开发时间：2016/2--2016/5</h4>
+                            <h5>开发工具：webstorm+mysql+php</h5>
+                            <p>项目描述：</p>
+                            <p>该项目配合宣传公司新上线的绿圈校园APP，吸引用户,是针对校园学生组织管理事务的网站</p>
+                            <p>整个网站采用原生搭建。使用了部分BootStrap</p>
+                            <p>责任描述：</p>
+                            <p>1.使用Less集成bootstrap和FontAwesome文本字体。</p>
+                            <p>2.使用jquery-vegas组件完成页面的轮播播放效果。</p>
+                            <p>3.使用HTML5的绘图技术完成概述页面图形的绘制。 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="programe">
+                    <div class="work_time">2个月<br>汽院考试报名系统</div>
+                    <div class="work_text">
+                        <div class="triangle-left"></div>
+                        <div class="exCon">
+                            <h4>开发时间：2015/6--2015/8</h4>
+                            <h5>开发工具：hbuilder+mysql+php</h5>
+                            <p>项目描述：</p>
+                            <p>该项目是汽院学生报考四六级考试网站，可查询学生信息，报名缴费等, 整个网站采用的是BootStrap的框架。</p>
+                            <p>责任描述：</p>
+                            <p>1. 使用angularJS搭建框架，完成各模块的路由设置，确保各模块的有效访问。</p>
+                            <p>2. 利用原生html+css编写报名系统的静态页面，主要功能模块有注  册，登录，查询，报名，缴费等。</p>
+                            <p>3. 使用Bootstrap框架和css3媒体查询技术完成对移动端的适配，</p>
+                            <p>4. 使用mysql数据库保存用户的注册信息以及查询用户信息，</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="scissors">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--前端作品-->
+    <div class="section five">
+        <div class="works-content">
+            <!--标题-->
+            <h1 class="title">作品展示</h1>
+            <!--内容-->
+            <ul class="clearfix">
+                <li class="works-item1">
+                    <div class="works-item-box ">
+                        <a class="img-wrap" href="#master" target="_blank" title="您在看的就是我的作品~">
+                            <img src="Images/resume.jpg" alt="">
+                            <div class="mask"><img src="Images/resume.png" class="code"></div>
+                        </a>
+                        <h2>我的简历</h2>
+                    </div>
+                </li>
+                <li class="works-item2 ">
+                    <div class="works-item-box ">
+                        <a class="img-wrap " href="http://onlyway.16mb.com" target="_blank" title="飞讯软件 - 营销软件">
+                            <img src="Images/feixun.jpg" alt="">
+                            <div class="mask"><img src="Images/feixun.png" class="code"></div>
+                        </a>
+                        <h2>飞讯软件官网</h2>
+                    </div>
+                </li>
+                <li class="works-item3 ">
+                    <div class="works-item-box ">
+                        <a class="img-wrap " href="http://onlystar.web3v.net" target="_blank" title="绿圈校园APP上线啦">
+                            <img src="Images/greenCampus.jpg" alt="">
+                            <div class="mask"><img src="Images/greenCampus.png" class="code"></div>
+                        </a>
+                        <h2>App上线宣传页</h2>
+                    </div>
+                </li>
+                <li class="works-item4 ">
+                    <div class="works-item-box  ">
+                        <a class="img-wrap" href="http://onlyone.16mb.com" target="_blank"
+                           title="湖北汽车工业学院考试报名系统">
+                            <img src="Images/qw.jpg" alt="">
+                            <div class="mask"><img src="Images/qw.png" class="code"></div>
+                        </a>
+                        <h2>汽院考试报名系统</h2>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--专业技能-->
+    <div class="section six">
+        <div class="container skill-content">
+            <h1 class="title">专业技能</h1>
+            <div class="page-content row">
+                <div class="detail col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+                </div>
+                <div class="skill-detail col-xs-12 col-sm-7">
+                    <ul>
+                        <li><p>1、精通HTML(5)和CSS(3)。能够熟练编写各种静态页面,能够实现各种动效,具有手工编写代码的能力；</p></li>
+                        <li><p>2、熟悉JavaScript,DOM,BOM等原生js。能够使用原生js开发页面功能,能够使用原生js实现广告轮播，楼层滚动，放大镜效果。</p></li>
+                        <li><p>3、熟练掌握面向对象，继承，多态，重载等设计方法,熟练掌握树,栈和队列等数据结构,以及遍历，排序，去重复等算法</p></li>
+                        <li><p>4、熟练掌握HTML5各种新技术，能够实现基本绘图,能够绘制复杂图表,能够实现地理定位。</p></li>
+                        <li><p>5、熟练使用各种前端函数库和框架。熟练使用jQuery函数库，简化原生js开发。能够熟练封装jQuery插件，重用功能，熟练使用boot开发响应式页面，简化内容和样式的设计，熟练使用NG框架开发基于MVC的前端应用程序。</p></li>
+                        <li><p>6、熟练使用AJAX实现服务器端数据交互，熟练解决跨域访问问题。能够使用localstorage和sessionstorage缓存数据，减少ajax请求</p></li>
+                        <li><p>7、熟悉PHP, MYSQL,HTTP协议。能够使用PHP和MySQL进行简单服务器端开发</p></li>
+                        <li><p>8、熟悉React, Ionic ,zepto等框架。</p></li>
+                        <li><p>9、了解node.js和主要模块。能够使用node.js开发简单服务器端应用程序，访问mySQL数据库。</p></li>
+                        <li><p>10、了解PhoneGap，vue,React Native。</p></li>
+                        <li><p>11、了解微信开发，小程序开发。</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--联系方式-->
+    <div class="section seven">
+        <div class="contact-content">
+            <!--我的联系方式-->
+            <div class="letter">
+                <div class="letter-title">
+                    <!--信封图片-->
+                    <em class="stamp"></em>
+                    <!--标题-->
+                    <h1>伯乐，您有一封信哦</h1>
+                </div>
+                <div class="letter-content">
+                    <!--图片分隔线-->
+                    <em class="line-bg"></em>
+                    <h2 class="title">我的电话 & 邮件</h2>
+                    <ul class="phone clearfix">
+                        <li class="phone"><i class="icon-phone"></i><br/><a
+                                href="tel:13593773621">135-9377-3621</a></li>
+                        <li class="mail"><i class="icon-envelope-o"></i><br/><a href="mailto:991923257@qq.com">991923257@qq.com</a>
+                        </li>
+                    </ul>
+                    <h2 class="title ">我的简历下载</h2>
+                    <ul class="sns clearfix">
+                        <li class="pdf">
+                            <a href="徐辉波的简历.pdf" title="徐辉波的PDF格式简历下载"><i class="icon-file-pdf-o"></i><br/>PDF</a>
+                        </li>
+                        <li class="word"><a href="徐辉波的简历.doc" title="徐辉波的Word格式简历下载"><i class="icon-file-word-o"></i><br/>Word</a>
+                        </li>
+                    </ul>
+                    <em class="line-bg"></em>
+                </div>
+                <!--右边手-->
+                <img class="hand" src="Images/hand.png">
+                <!--下边手-->
+                <img class="hands" src="Images/hands.png">
+            </div>
+            <!--版权信息-->
+            <div class="copy-right hidden-xs">Copyright&nbsp;&nbsp;&copy;onlystar 2017</div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.slimscroll.min.js"></script>
+<script src="js/jquery.fullPage.js"></script>
+<script src="js/resume.js"></script>
+
+<!--<script>
+    (function () {
+        var s = document.createElement("script");
+        s.onload = function () {
+            bootlint.showLintReportForCurrentDocument([]);
+        };
+        s.src = "js/bootlint.js";
+        document.body.appendChild(s)
+    })();
+</script>-->
+</body>
+</html>
